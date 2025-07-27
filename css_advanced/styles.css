@@ -1,0 +1,76 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-image: url('./images/Object.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Hero Section */
+main > section:first-of-type {
+  padding: 100px 60px 80px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Object.png') no-repeat center;
+  background-size: cover;
+}
+
+main > section:first-of-type h1 {
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main > section:first-of-type span {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+main > section:first-of-type button {
+  margin-top: 40px;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #c271ff;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
